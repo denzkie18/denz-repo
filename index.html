@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="og:type" content="website"/>
+    <meta name="og:site_name" content="LightNovelStorage"/>
+    <meta name="description" content="LightNovelStorage is a free website where anyone can download any kinds of Light Novels for free"/>
+    <meta name="og:image" content="https://www.noveltime.ml/images/logo.jpg"/>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Light Novel Storage</title>
+</head>
+<body>
+	<nav class="navigation">
+	  <div class="bar" id="bar" onclick="open_nav()">
+	    <img src="icons/menubar.png" alt="bar" style="width:40px;height:40px" />
+	  </div>
+	  <div class="webtitle">
+	    <h2>LightNovelStorage</h2>
+	  </div>
+	</nav>
+	<!-- Menu Content -->
+	<div class="menuContent" id="menuContent">
+	  <div class="content">
+	    <span id="close" onclick="close_nav()">&times;</span>
+	    <div class="listIndex">
+	      <ul id="list2">
+	        <li><a href="#">Home</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+	<!-- NEW post -->
+	<div class="main-container">
+	  <div class="postConTitle" style="padding:10px 20px;display:flex;">
+	    <img src="icons/post.png" alt="icon" width="25px" height="25px"/>
+	    <h4 style="padding-top:5px;">New Post</h4>
+	  </div>
+	  <div class="newpost">
+	    <div class="slot">
+	      <div class="imgCon">
+	        <img src="https://cdn.novelupdates.com/images/2017/02/cover00219.jpeg" alt="Cover" width="100%;" />
+	        <img src="icons/new.png" alt="icon" width="50px" height="50px" id="newIcon"/>
+	      </div>
+	      <div class="info">
+	        <h3 id="title"><a href="Classroom-of-the-Elite-Light-Novel.html">Classroom of the Elite</a></h3>
+	      </div>
+	    </div>
+	    <div class="slot">
+	      <div class="imgCon">
+	        <img src="https://cdn.novelupdates.com/images/2021/12/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg" alt="Cover" width="100%;" />
+	        <img src="icons/new.png" alt="icon" width="50px" height="50px" id="newIcon"/>
+	      </div>
+	      <div class="info">
+	        <h3 id="title"><a href="How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me-Light-Novel.html">How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?</a></h3>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<footer>
+	  <p>©Copyrighted LightNovelStorage</p>
+	  <p>®Alright Reserved 2022</p>
+	</footer>
+<script type="text/javascript" charset="utf-8">
+  function open_nav(){
+    document.getElementById("menuContent").style.display = "block";
+  }
+  function close_nav(){
+    document.getElementById("menuContent").style.display = "none";
+  }
+</script>
+</body>
+</html>

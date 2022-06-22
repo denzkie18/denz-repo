@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@500&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  background: #252525;
+  color: #fff;
+  font-family: 'Poppins',Sans-Serif;
+}
+.webtitle h2, #title{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+/*Selector All Elements*/
+h1,h2,h3,h4,h5,h6,p{margin:0;padding:0}
+.navigation{
+  box-shadow: 1px 1px 5px black;
+  margin: 0;
+  display: flex;
+  font-family: 'Poppins',Sans-Serif;
+}
+.bar{padding: 5px;}
+.navigation .webtitle{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+.menuContent{
+  width: 300px;
+  display: none;
+  height: 100vh;
+  padding: 10px 7px;
+  box-shadow: 1px 1px 5px black;
+  position: absolute;
+  background-color: #252525
+  ;
+  z-index: 10;
+}
+.menuContent .content #close{
+  float:right;
+  font-size: 20pt;
+}
+.menuContent .content .listIndex{
+  padding: 10px 0;
+  clear:right;
+}
+#list2{
+  margin: 0;
+  padding: 0 10px 0 10px;
+  list-style-type: none;
+}
+#list2 li{
+  border-bottom: 1px solid grey;
+  padding: 7px 0;
+}
+#list2 li a{
+  color: inherit;
+  text-decoration: none;
+  font-size: 15pt;
+}
+#list2 li a:hover{
+  text-decoration: underline;
+  color: #2fb302;
+}
+#list{
+  margin: 0;
+  padding: 0 10px 0 10px;
+  list-style-type: none;
+}
+#list li:first-child{
+  font-size: 17pt;
+  font-weight: bold;
+}
+#list li{
+  border-bottom: 1px solid grey;
+  padding: 7px 0;
+}
+#list li a{
+  color: inherit;
+  text-decoration: none;
+}
+#list li a:hover{
+  text-decoration: underline;
+  color: #2fb302;
+}
+.slot{
+  margin: 15px 20px;
+  box-shadow: 1px 1px 5px black;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.info{
+  padding: 7px;
+}
+.imgCon{
+  position: relative;
+}
+.imgCon #newIcon{
+  position: absolute;
+  left: 0;
+}
+#title a{
+  text-decoration: none;
+  color:inherit
+}
+#title a:hover{
+  text-decoration: underline;
+  color: #2fb302;
+}
+.volumes{
+  text-align: center;
+  padding: 5px;
+}
+.volumes a{
+  color: inherit;
+  margin: 10px 0;
+}
+/*Donation*/
+iframe{
+  border-radius: 5px
+}
+footer{
+  background-color:black;color:white;padding:10px;margin:0;text-align:center;
+}
+footer p{
+   font-size: 8pt;
+   margin: 7px 0;
+}
