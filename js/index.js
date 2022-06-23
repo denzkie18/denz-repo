@@ -3,6 +3,14 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "Welcome to Cheap Restaurant of Outcasts!",
+        sourceLink: "series/Welcome-to-Cheap-Restaurant-of-Outcasts-Light-Novel.html"
+      },
+      {
+        title: "Arifureta Shokugyou de Sekai Saikyou",
+        sourceLink: "series/Arifureta Shokugyou de Sekai Saikyou-Light-Novel.html"
+      },
+      {
         title: "The Blonde Saint Only Makes Strange Noises In Front Of Me, What Should I Do? (WN)",
         sourceLink: "series/The-Blonde-Saint-Only-Makes-Strange-Noises-In-Front-Of-Me-What-Should-I-Do-Light-Novel.html"
       },
