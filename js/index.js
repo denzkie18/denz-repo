@@ -3,6 +3,10 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "The Blonde Saint Only Makes Strange Noises In Front Of Me, What Should I Do? (WN)",
+        sourceLink: "series/The-Blonde-Saint-Only-Makes-Strange-Noises-In-Front-Of-Me-What-Should-I-Do-Light-Novel.html"
+      },
+      {
         title: "Unmotivated Hero’s Tale (WN)",
         sourceLink: "series/Unmotivated Hero’s Tale-Light-Novel.html"
       },
