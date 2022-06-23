@@ -3,6 +3,14 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "Our Dating Story: The Experienced You and The Inexperienced Me",
+        sourceLink: "series/Our Dating Story The Experienced You and The Inexperienced Me-Light-Novel.html"
+      },
+      {
+        title: "Tensei Shitara Slime Datta Ken",
+        sourceLink: "series/Tensei Shitara Slime Datta Ken-Light-Novel.html"
+      },
+      {
         title: "She's the Cutest... But We're Just Friends!",
         sourceLink: "series/Shes the Cutest But We're-Just-Friends-Light-Novel.html"
       },
