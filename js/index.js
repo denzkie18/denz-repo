@@ -3,6 +3,10 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "Date A Live",
+        sourceLink: "series/Date A Live-Light-Novel.html"
+      },
+      {
         title: "Our Dating Story: The Experienced You and The Inexperienced Me",
         sourceLink: "series/Our Dating Story The Experienced You and The Inexperienced Me-Light-Novel.html"
       },
