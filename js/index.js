@@ -3,6 +3,10 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "Unmotivated Hero’s Tale (WN)",
+        sourceLink: "series/Unmotivated Hero’s Tale-Light-Novel.html"
+      },
+      {
         title: "[New Life+] Young Again in Another World",
         sourceLink: "series/Young Again in Another World-Light-Novel.html"
       },

@@ -114,6 +114,7 @@ h1,h2,h3,h4,h5,h6,p{margin:0;padding:0}
   margin: 10px 0;
   display: block;
 }
+.message{background-color:#05b70e;color:#fff;padding:15px;border-radius:7px;}
 /*Donation*/
 iframe{
   border-radius: 5px
