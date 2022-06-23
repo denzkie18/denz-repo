@@ -3,6 +3,10 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "She's the Cutest... But We're Just Friends!",
+        sourceLink: "series/Shes the Cutest But We're-Just-Friends-Light-Novel.html"
+      },
+      {
         title: "Classroom of the Elite",
         sourceLink: "series/Classroom-of-the-Elite-Light-Novel.html"
       },
