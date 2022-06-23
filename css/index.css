@@ -66,11 +66,7 @@ h1,h2,h3,h4,h5,h6,p{margin:0;padding:0}
 #list{
   margin: 0;
   padding: 0 10px 0 10px;
-  list-style-type: none;
-}
-#list li:first-child{
-  font-size: 17pt;
-  font-weight: bold;
+  list-style-type: decimal;
 }
 #list li{
   border-bottom: 1px solid grey;
@@ -79,6 +75,7 @@ h1,h2,h3,h4,h5,h6,p{margin:0;padding:0}
 #list li a{
   color: inherit;
   text-decoration: none;
+  font-size: 13pt;
 }
 #list li a:hover{
   text-decoration: underline;
@@ -115,7 +112,7 @@ h1,h2,h3,h4,h5,h6,p{margin:0;padding:0}
 .volumes a{
   color: inherit;
   margin: 10px 0;
-  display: inline-block;
+  display: inline;
 }
 /*Donation*/
 iframe{
