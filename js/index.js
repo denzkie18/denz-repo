@@ -3,8 +3,20 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "Sword of the Philosopher",
+        sourceLink: "series/Kenja-no-Tsurugi-Light-Novel.html"
+      },
+      {
+        title: "Bofuri: I Don't Want to Get Hurt, so I'll Max Out My Defense",
+        sourceLink: "series/Itai-No-Wa-Iya-Light-Novel.html"
+      },
+      {
         title: "Welcome to Cheap Restaurant of Outcasts!",
         sourceLink: "series/Welcome-to-Cheap-Restaurant-of-Outcasts-Light-Novel.html"
+      },
+      {
+        title: "86-Eighty Six",
+        sourceLink: "series/Eight-Six-Light-Novel.html"
       },
       {
         title: "Arifureta Shokugyou de Sekai Saikyou",
@@ -61,5 +73,12 @@ $(document).ready(function(){
     list_1.append(li);
     
   }
+  
+  let recommendBook = document.createElement('li');
+  let recommendBookLink = document.createElement('a');
+  recommendBookLink.innerHTML = 'Download EBook Reader';
+  recommendBookLink.href = 'https://drive.google.com/file/d/1TRoEIisxu0hTvj8JiPwP3-NcYSdQ876L/view?usp=drivesdk';
+  recommendBook.append(recommendBookLink);
+  $('#list2').append(recommendBook);
   
 });
