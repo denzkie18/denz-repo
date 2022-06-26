@@ -3,6 +3,10 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "After I Lectured an Unfriendly Girl Who Doesn't Let Strangers Approach her, She Really Took a Liking to Me",
+        sourceLink: "series/Tanin-wo-Yosetsukenai-Buaisouna-Joshi-ni-Sekkyou-shitara-Mechakucha-Natsukareta-Light-Novel.html"
+      },
+      {
         title: "Sword of the Philosopher",
         sourceLink: "series/Kenja-no-Tsurugi-Light-Novel.html"
       },
@@ -74,11 +78,11 @@ $(document).ready(function(){
     
   }
   
+  
   let recommendBook = document.createElement('li');
   let recommendBookLink = document.createElement('a');
   recommendBookLink.innerHTML = 'Download EBook Reader';
   recommendBookLink.href = 'https://drive.google.com/file/d/1TRoEIisxu0hTvj8JiPwP3-NcYSdQ876L/view?usp=drivesdk';
   recommendBook.append(recommendBookLink);
   $('#list2').append(recommendBook);
-  
 });
