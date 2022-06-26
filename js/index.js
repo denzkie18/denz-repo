@@ -7,10 +7,6 @@ $(document).ready(function(){
         sourceLink: "series/Tanin-wo-Yosetsukenai-Buaisouna-Joshi-ni-Sekkyou-shitara-Mechakucha-Natsukareta-Light-Novel.html"
       },
       {
-        title: "Sword of the Philosopher",
-        sourceLink: "series/Kenja-no-Tsurugi-Light-Novel.html"
-      },
-      {
         title: "Bofuri: I Don't Want to Get Hurt, so I'll Max Out My Defense",
         sourceLink: "series/Itai-No-Wa-Iya-Light-Novel.html"
       },
@@ -25,14 +21,6 @@ $(document).ready(function(){
       {
         title: "Arifureta Shokugyou de Sekai Saikyou",
         sourceLink: "series/Arifureta Shokugyou de Sekai Saikyou-Light-Novel.html"
-      },
-      {
-        title: "The Blonde Saint Only Makes Strange Noises In Front Of Me, What Should I Do? (WN)",
-        sourceLink: "series/The-Blonde-Saint-Only-Makes-Strange-Noises-In-Front-Of-Me-What-Should-I-Do-Light-Novel.html"
-      },
-      {
-        title: "Unmotivated Hero’s Tale (WN)",
-        sourceLink: "series/Unmotivated Hero’s Tale-Light-Novel.html"
       },
       {
         title: "[New Life+] Young Again in Another World",
@@ -80,9 +68,15 @@ $(document).ready(function(){
   
   
   let recommendBook = document.createElement('li');
+  let wn = document.createElement('li');
   let recommendBookLink = document.createElement('a');
+  let wnlink = document.createElement('a');
   recommendBookLink.innerHTML = 'Download EBook Reader';
+  wnlink.innerHTML = 'WN List';
   recommendBookLink.href = 'https://drive.google.com/file/d/1TRoEIisxu0hTvj8JiPwP3-NcYSdQ876L/view?usp=drivesdk';
+  wnlink.href = 'WN-List.html';
   recommendBook.append(recommendBookLink);
+  wn.append(wnlink);
+  $('#list2').append(wn);
   $('#list2').append(recommendBook);
 });

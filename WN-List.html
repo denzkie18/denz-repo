@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="og:type" content="website"/>
+    <meta name="og:site_name" content="LightNovelStorage"/>
+    <meta name="description" content="LightNovelStorage is a free website where anyone can download any kinds of Light Novels for free"/>
+    <meta name="og:image" content="https://www.noveltime.ml/images/logo.jpg"/>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/wnjs.js" type="text/javascript" charset="utf-8"></script>
+  <title>Light Novel Storage</title>
+</head>
+<body>
+	<nav class="navigation">
+	  <div class="bar" id="bar" onclick="open_nav()">
+	    <img src="icons/menubar.png" alt="bar" style="width:40px;height:40px" />
+	  </div>
+	  <div class="webtitle">
+	    <h2>LightNovelStorage</h2>
+	  </div>
+	</nav>
+	<!-- Menu Content -->
+	<div class="menuContent" id="menuContent">
+	  <div class="content">
+	    <span id="close" onclick="close_nav()">&times;</span>
+	    <div class="listIndex">
+	      <ul id="list2">
+	        <li><a href="https://cute-cactus-b0ba9a.netlify.app/">Home</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+	<!-- NEW post -->
+	<div class="main-container">
+	  <div class="newpost">
+	    <div class="slot">
+	      <div class="info">
+	        <ul id="list3">
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<footer>
+	  <p>©Copyrighted LightNovelStorage</p>
+	  <p>®Alright Reserved 2022</p>
+	</footer>
+<script type="text/javascript" charset="utf-8">
+  function open_nav(){
+    document.getElementById("menuContent").style.display = "block";
+  }
+  function close_nav(){
+    document.getElementById("menuContent").style.display = "none";
+  }
+  $(document).ready(function(){
+      var mylist = $("#list");
+      var listitems = mylist.children('li').get();
+      listitems.sort(function(a, b) {
+      return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
+      });
+      $.each(listitems, function(idx, itm) { mylist.append(itm); });
+    });
+</script>
+</body>
+</html>
