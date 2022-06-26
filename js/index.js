@@ -72,9 +72,9 @@ $(document).ready(function(){
   let recommendBookLink = document.createElement('a');
   let wnlink = document.createElement('a');
   recommendBookLink.innerHTML = 'Download EBook Reader';
-  wnlink.innerHTML = 'https://www.lightnovelstorage.cf/WN List';
+  wnlink.innerHTML = 'WN List';
   recommendBookLink.href = 'https://drive.google.com/file/d/1TRoEIisxu0hTvj8JiPwP3-NcYSdQ876L/view?usp=drivesdk';
-  wnlink.href = 'WN-List.html';
+  wnlink.href = 'https://www.lightnovelstorage.cf/WN-List.html';
   recommendBook.append(recommendBookLink);
   wn.append(wnlink);
   $('#list2').append(wn);
