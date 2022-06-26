@@ -3,6 +3,10 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "Shinwa Densetsu no Eiyuu no Isekaitan",
+        sourceLink: "series/Shinwa Densetsu no Eiyuu no Isekaitan-Light-Novel.html"
+      },
+      {
         title: "After I Lectured an Unfriendly Girl Who Doesn't Let Strangers Approach her, She Really Took a Liking to Me",
         sourceLink: "series/Tanin-wo-Yosetsukenai-Buaisouna-Joshi-ni-Sekkyou-shitara-Mechakucha-Natsukareta-Light-Novel.html"
       },
