@@ -72,15 +72,21 @@ $(document).ready(function(){
   
   
   let recommendBook = document.createElement('li');
+  let help = document.createElement('li');
   let wn = document.createElement('li');
   let recommendBookLink = document.createElement('a');
+  let helpLink = document.createElement('a');
   let wnlink = document.createElement('a');
   recommendBookLink.innerHTML = 'Download EBook Reader';
+  helpLink.innerHTML = 'How to Download?';
   wnlink.innerHTML = 'WN List';
   recommendBookLink.href = 'https://drive.google.com/file/d/1TRoEIisxu0hTvj8JiPwP3-NcYSdQ876L/view?usp=drivesdk';
   wnlink.href = 'https://www.lightnovelstorage.cf/WN-List.html';
+  helpLink.href = 'help.html';
   recommendBook.append(recommendBookLink);
   wn.append(wnlink);
+  help.append(helpLink);
   $('#list2').append(wn);
+  $('#list2').append(help);
   $('#list2').append(recommendBook);
 });

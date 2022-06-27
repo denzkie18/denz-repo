@@ -3,6 +3,10 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "Return of the Former Hero",
+        sourceLink: "series/Return of the Former Hero-Light-Novel.html"
+      },
+      {
         title: "An A-Ranked Adventurer’s “Slow-living”",
         sourceLink: "series/An-a-Rank-Adventurer-slow-Living-Light-Novel.html"
       },
