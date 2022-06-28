@@ -3,6 +3,10 @@ $(document).ready(function(){
   //List of Novels
   let novel_index = [
       {
+        title: "The Dragon Master Wants to Live Quietly",
+        sourceLink: "series/The Dragon Master Wants to Live Quietly-Light-Novel.html"
+      },
+      {
         title: "Return of the Former Hero",
         sourceLink: "series/Return of the Former Hero-Light-Novel.html"
       },
